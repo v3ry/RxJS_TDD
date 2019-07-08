@@ -1,0 +1,28 @@
+{
+  "name": "rxjs_tdd",
+  "version": "0.1.1",
+  "description": "Introduction to Observables with some TDD",
+  "main": "00.intro.js",
+  "scripts": {
+    "start": "tsc",
+    "test": "jest",
+    "test-intro": "jest -t intro"
+  },
+  "keywords": [
+    "RxJS",
+    "TDD",
+    "Observable",
+    "Typescript"
+  ],
+  "author": "Alban DEFLANDRE <alban.deflandre@wildcodeschool.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  }
+}

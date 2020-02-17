@@ -5,8 +5,7 @@
   "main": "00.intro.js",
   "scripts": {
     "start": "tsc",
-    "test": "jest",
-    "test-intro": "jest -t intro"
+    "test": "jest"
   },
   "keywords": [
     "RxJS",
